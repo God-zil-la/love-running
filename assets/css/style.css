@@ -186,7 +186,7 @@ main {
 }
 
 #times h3 {
-    /* Override the heading colour set in general styles */
+    /* Override the heading color set in general styles */
     color: #fafafa;
 }
 
@@ -282,6 +282,7 @@ column-gap: 0;
         text-align: end;
         align-self: flex-end;
     }
+}
 /*Gallery*/
 #photos {
     column-count: 3;
@@ -295,7 +296,9 @@ column-gap: 0;
     }
 
     /*Gallery*/
-    column-count: 4;
+    #photos {
+        column-count: 4;
+    }
 }
 
 @media screen and (min-width: 1200px) {    
